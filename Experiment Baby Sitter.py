@@ -23,7 +23,7 @@ for i in range(1000):
         import requests
         payload = '{"text": "Software is running(Hours):"}'
         response = requests.post(
-        'https://hooks.slack.com/services/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',
+        'URL',
         data = payload)
         print(response.text)
         payload =  {'text': '{:.2f}'.format(ff)}
